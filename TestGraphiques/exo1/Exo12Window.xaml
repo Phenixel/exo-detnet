@@ -1,0 +1,15 @@
+<Window x:Class="TestGraphiques.Exo12Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:TestGraphiques"
+        mc:Ignorable="d"
+        Title="Exo12Window" Height="250" Width="400">
+    <Grid>
+        <Button Content="UpLe" Margin="0,0,40,40" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Width="40"/>
+        <Button Content="UpRi" Margin="40, 0, 0, 40" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Width="40"/>
+        <Button Content="DoLe" Margin="0,40,40,0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Width="40"/>
+        <Button Content="DoRi" Margin="40, 40, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Width="40"/>
+    </Grid>
+</Window>

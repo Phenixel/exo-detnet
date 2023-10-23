@@ -1,0 +1,18 @@
+<Window x:Class="TestGraphiques.exo2.deuxiemePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:TestGraphiques.exo2"
+        mc:Ignorable="d"
+        Title="deuxiemePage" Height="450" Width="800">
+    <Grid>
+
+        <TextBlock x:Name="Prenom2" HorizontalAlignment="Left" Margin="0,83,-0.4,0" TextWrapping="Wrap" Text="PRENOM" VerticalAlignment="Top" Height="42" Width="794" Foreground="black" FontSize="32" TextAlignment="Center" Background="white"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="0,36,-0.4,0" TextWrapping="Wrap" Text="BIENVENUE" VerticalAlignment="Top" Height="42" Width="794" Foreground="black" FontSize="32" TextAlignment="Center" Background="white"/>
+
+        <TextBlock x:Name="Nom2" HorizontalAlignment="Left" Margin="0,130,-0.4,0" TextWrapping="Wrap" Text="NOM" VerticalAlignment="Top" Height="42" Width="794" Foreground="black" FontSize="32" TextAlignment="Center" Background="white"/>
+
+    </Grid>
+</Window>

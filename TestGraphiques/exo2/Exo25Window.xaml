@@ -1,0 +1,21 @@
+<Window x:Class="TestGraphiques.exo2.Exo25Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:TestGraphiques.exo2"
+        mc:Ignorable="d"
+        Title="Exo25Window" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="submit" Content="SUBMIT" HorizontalAlignment="Left" Margin="351,297,0,0" VerticalAlignment="Top" Width="128" Height="57" Click="Button_Click"/>
+
+        <TextBox x:Name="textPrenom" HorizontalAlignment="Left" Height="44" Margin="80,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" Foreground="black" FontSize="26" TextAlignment="Left" Background="white"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="80,77,0,0" TextWrapping="Wrap" Text="PRENOM" VerticalAlignment="Top" Height="42" Width="267" Foreground="white" FontSize="32" TextAlignment="Center" Background="Black"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="477,77,0,0" TextWrapping="Wrap" Text="NOM" VerticalAlignment="Top" Height="42" Width="267" Foreground="white" FontSize="32" TextAlignment="Center" Background="Black"/>
+
+        <TextBox x:Name="textNom" HorizontalAlignment="Left" Height="44" Margin="477,188,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="267" Foreground="black" FontSize="26" TextAlignment="Left" Background="white"/>
+    </Grid>
+
+</Window>

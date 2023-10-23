@@ -1,0 +1,13 @@
+<Window x:Class="TestGraphiques.Exo14Windows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:TestGraphiques"
+        mc:Ignorable="d"
+        Title="Exo14Windows" Height="150" Width="400">
+    <Grid>
+        <TextBlock Text="Lorem ipsum dolor sit amet. Eum esse officiis ut rerum voluptas ab voluptatem nulla qui rerum voluptas? Ut ipsum recusandae in rerum delectus sed galisum quibusdam id omnis quaerat vel praesentium eius." TextWrapping="Wrap" Height="270" Width="195" HorizontalAlignment="Left"/>
+        <TextBlock Text="Et earum officia non deleniti rerum non unde voluptatem aut explicabo inventore ut voluptas rerum? Et ipsam repellendus rem ducimus autem et similique totam in rerum magnam eos voluptatum nihil et consequatur omnis et provident debitis." TextWrapping="Wrap" Height="270" Width="195" HorizontalAlignment="Right"/>
+    </Grid>
+</Window>

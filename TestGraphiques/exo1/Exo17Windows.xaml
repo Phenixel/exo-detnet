@@ -1,0 +1,19 @@
+<Window x:Class="TestGraphiques.Exo17Windows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:TestGraphiques"
+        mc:Ignorable="d"
+        Title="Exo17Windows" Height="450" Width="800">
+    <ListBox HorizontalAlignment="Center" Height="100">
+        <ListBoxItem Content="Radioactive" Foreground="#0f2d7e" FontSize="15" FontWeight="Bold"/>
+        <ListBoxItem Content="Demons" Foreground="#2147ae" FontSize="15" FontWeight="Bold"/>
+        <ListBoxItem Content="It's Time" Foreground="#3959b0" FontSize="15" FontWeight="Bold"/>
+        <ListBoxItem Content="Believer" Foreground="#566fb2" FontSize="15" FontWeight="Bold"/>
+        <ListBoxItem Content="Whatever It Takes" Foreground="#6f81b0" FontSize="15" FontWeight="Bold"/>
+        <ListBoxItem Content="Thunder" Foreground="#8a95b4" FontSize="15" FontWeight="Bold"/>
+        <ListBoxItem Content="On Top of the World" Foreground="#b6bed2" FontSize="15" FontWeight="Bold"/>
+    </ListBox>
+
+</Window>
